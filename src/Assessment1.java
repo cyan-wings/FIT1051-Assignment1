@@ -1,13 +1,17 @@
 import java.util.Scanner;
 import java.lang.Exception;
-
+/**
+ * FIT1051 Assignment 1 with 4 tasks
+ * @author Matthew Yeow
+ * @version JDK 21 SE
+ */
 public class Assessment1 {
     public static void main(String[] args) {
         Assessment1 a1 = new Assessment1();
-        a1.task1();
-        a1.task2();
-        a1.task3();
-        a1.task4();
+        //a1.task1();
+        //a1.task2();
+        //a1.task3();
+        //a1.task4();
     }
 
     public double areaOfCircle(double r) {
@@ -20,7 +24,7 @@ public class Assessment1 {
 
     public void task2() {
         Monster monster1 = new Monster();
-        monster1.setHealthVal(45);
+        monster1.setHealthVal(-5);
         int health = monster1.getHealthVal();
         System.out.println(health);
     }
